@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+    <title>AI Engineer Technical Quiz</title>
+
+
+</head>
+
+<body>
+
+    <section class="quiz">
+
+<div class="nod">
+        <h1 class="q1">Welcome to the AI Engineer Technical Quiz</h1>
+
+        <p>Test your knowledge on AI concepts and technologies!</p>
+        </div>
+        <div class="mod">
+            <h1 class="q1">1. Which Python library is most commonly used for numerical computations in AI?</h1>
+            <div class="choice">
+                <button>NumPy</button>
+                <button class="ans" onclick="cg()">Pandas</button>
+                <button>Matplotlib</button>
+            </div>
+        </div>
+
+
+        <div class="mod">
+            <h1 class="q1">2. In supervised learning, the dataset contains:</h1>
+            <div class="choice">
+                <button class="ans" onclick="cg()">Only input features</button>
+                <button>Input features and labeled outputs</button>
+                <button>Only labeled outputs</button>
+            </div>
+        </div>
+
+        <div class="mod">
+
+            <h1 class="q1">3. What does the “ReLU” activation function do?</h1>
+            <div class="choice">
+                <button>Outputs zero for negative values and the input for positive values</button>
+                <button>Outputs the same as input for negative values</button>
+                <button class="ans" onclick="cg()">Outputs a probability between 0 and 1</button>
+            </div>
+        </div>
+
+        <div class="mod">
+
+            <h1 class="q1">4. Which algorithm is best suited for classifying emails as spam or not spam?</h1>
+            <div class="choice">
+                <button class="ans" onclick="cg()">K-Means Clustering</button>
+                <button>Naive Bayes</button>
+                <button>Linear Regression</button>
+            </div>
+        </div>
+
+
+        <div class="mod">
+            <h1 class="q1">5. In Python’s scikit-learn, which method is used to split data into
+                training and testing sets?</h1>
+            <div class="choice">
+                <button>train_test_split()</button>
+                <button class="ans" onclick="cg()">split_data()</button>
+                <button>test_train_divide()</button>
+            </div>
+        </div>
+
+
+        <div class="mod">
+            <h1 class="q1">6. What is overfitting in machine learning?</h1>
+            <div class="choice">
+                <button>Model performs well on training data but poorly on unseen data</button>
+                <button class="ans" onclick="cg()">Model performs poorly on both training and test data</button>
+                <button>Model performs well only on test data</button>
+            </div>
+        </div>
+
+
+        <div class="mod">
+            <h1 class="q1">7. Which file format is commonly used for storing trained deep learning models in
+                TensorFlow?</h1>
+            <div class="choice">
+                <button>.model</button>
+                <button>.h5</button>
+                <button class="ans" onclick="cg()">.pkl</button>
+            </div>
+        </div>
+
+        <div class="mod">
+
+            <h1 class="q1">8. What does the term “epoch” mean in deep learning?</h1>
+            <div class="choice">
+                <button>One complete pass through the training dataset</button>
+                <button class="ans" onclick="cg()">A single batch of data</button>
+                <button>The number of hidden layers in a network</button>
+            </div>
+        </div>
+
+
+
+        <div class="mod">
+            <h1 class="q1">9. Which Python library is specifically designed for natural language processing?</h1>
+            <div class="choice">
+                <button class="ans" onclick="cg()">Pillow</button>
+                <button>NLTK</button>
+                <button>Requests</button>
+            </div>
+        </div>
+
+
+        <div class="mod">
+            <h1 class="q1">10. Which of the following is NOT a common use case for AI engineers?</h1>
+            <div class="choice">
+                <button>Image classification</button>
+                <button class="ans" onclick="cg()">API development</button>
+                <button>Speech recognition</button>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="res">
+        <button class="result" onclick="gotores()">Submit</button>
+
+        <p>@powered by phantom Whiz </p>
+    </section>
+
+
+
+    <script src="script.js"></script>
+       
+</body>
+
+</html>
